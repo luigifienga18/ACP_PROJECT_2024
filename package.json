@@ -1,0 +1,9 @@
+{
+  "name": "immobilishop",
+  "description": "Il miglior sito per trovare la tua casa",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.10.4"
+  }
+}

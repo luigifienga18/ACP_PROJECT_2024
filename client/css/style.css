@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+header, main, footer {
+    display: block;
+    min-width: 1400px;
+}
+
+header .container, main .container, footer .container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    overflow: auto;
+}
+
+header .container h1 {
+    margin: 0;
+    float: left;
+    font-size: 3em;
+    transition: color 0.3s ease-in-out;
+    
+}
+
+header .container h1:hover {
+    color: #1c6da8;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+.registrazione {
+    float: right;
+    padding-top: 20px;
+
+}
+
+.registrazione a span {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    
+    text-decoration: none;
+}
+
+.registrazione a span:hover {
+    background-color: #1c6da8;
+}
+
+
+main {
+    background: #eee;
+    border-radius: 0 5px 5px 5px;;
+    padding: 40px;
+
+}
+
+main .container h2{
+    border-radius: 5px;
+    width: 190px;
+    color: #006199;
+    background: #ddd;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0 10px 590px;
+}
+
+
+
+.ricerca_proprieta_form {
+    margin-left: 100px;
+    display: inline-block;
+    text-align: left;
+}
+
+.ricerca_proprieta_form p {
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+.reg_utente_form {
+    display: inline-block;
+    text-align: left;
+
+}
+
+.reg_utente_form p {
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+button {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #1c6da8;
+}
+
+.mailboxing_si{
+    background-color: #00c01a;
+}
+
+.mailboxing_si:hover{
+    background-color: #009414;
+}
+.mailboxing_no{
+    background-color: #b90000;
+}
+
+.mailboxing_no:hover{
+    background-color: #960000;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h5 {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+footer .container .contatti {
+    float: left;
+    text-align: left;
+
+    width: 570px;    
+}
+  
+footer .container .contatti h5 {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+footer .contatti p:nth-child(2) {
+    color: white;
+    font-style: italic;
+}
+  
+
+footer .sitemap {
+    float: right;
+    text-align: left;
+    width: 600px;
+}
+
+footer ul {
+    width: 500px;
+
+}
+
+footer li {
+    list-style: none;
+    
+}
+
+footer .sitemap .left {
+    float: left;
+
+}
+
+footer .sitemap .right {
+    padding-right: 40px;
+    float: right;
+
+}
